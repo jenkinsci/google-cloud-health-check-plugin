@@ -5,22 +5,22 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
-    <artifactId>google-plugins</artifactId>
-    <version>0.1-SNAPSHOT</version>
-    <relativePath>../pom.xml</relativePath>
+    <artifactId>plugin</artifactId>
+    <version>1.626</version>
+    <relativePath />
   </parent>
 
-  <artifactId>google-health-check</artifactId>
+  <artifactId>google-cloud-health-check</artifactId>
   <packaging>hpi</packaging>
+  <version>0.1-SNAPSHOT</version>
 
   <name>Google Health Check Plugin</name>
 
   <dependencies>
-    <!-- Common dependency -->
     <dependency>
-      <groupId>com.google.jenkins.plugins.common</groupId>
-      <artifactId>google-plugin-common</artifactId>
-      <version>${project.version}</version>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-all</artifactId>
+      <version>1.9.5</version>
     </dependency>
   </dependencies>
 </project>
